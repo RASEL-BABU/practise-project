@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg form</title>
+    <style>
+       label {
+        display: block;
+        margin: 10px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to my form</h1>
+    <form>
+        <label for="name"> Name
+            <input id="name" type="text" placeholder="please insert name">
+        </label>
+
+            
+        <label for="name">Email
+            <input id="email" type="email" placeholder="please insert email">
+        </label>
+
+            
+        <label for="email">password
+            <input id="password" type="password" placeholder="please insert password">
+        </label>
+        <fieldset>
+            <legend>please pick one</legend>
+            <label for="C">
+                <input type="radio" id="C language" name="programming">
+                C
+                
+            </label>
+            <label for="C">
+                <input type="radio" id="C++ language" name="programming">
+                C++
+                
+            </label>
+            <label for="java">
+                <input type="radio" id="Java language" name="programming">
+                java
+                
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+            please select one or more
+            </legend>
+            <label for="web develop">
+                <input type="checkbox" name="Develop" id="web develop">
+                Web develop
+
+            </label>
+            <label for="software">
+                <input type="checkbox" name="Develop" id="software develop">
+                software develop
+
+            </label>
+            <label for="language developer">
+                <input type="checkbox" name="Develop" id="language developer">
+                language developer
+
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                some instruction
+            </legend>
+            <textarea name="" id="" cols="34" rows="4" placeholder="write somthing"> 
+
+            </textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+            
+
+    </form>
+    
+</body>
+</html>
